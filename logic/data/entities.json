@@ -1,0 +1,23 @@
+{
+	"Knight" : {
+        "hp":10,
+        "ap" : 5,
+		"sprite": "knight.png",
+		"spriteData": "spriteData.json"
+	},
+	"Rogue": {
+        "hp" : 7,
+        "ap" : 7,
+		"sprite": "rogue.png",
+		"spriteData": "spriteData.json"
+	},
+	"Scholar": {
+        "hp":5,
+        "ap":10,
+		"sprite": "scholar.png",
+		"spriteData": "spriteData.json"
+	},
+	"misc": {
+		"something" : "something"
+	}
+}

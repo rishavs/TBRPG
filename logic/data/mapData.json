@@ -1,0 +1,30 @@
+{
+    "name" : "Dusty Road",
+    "grid": [
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"],
+        ["tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr", "tr"]
+    ],
+    "artefacts": [
+    
+    ]   
+}
