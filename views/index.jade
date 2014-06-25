@@ -1,10 +1,12 @@
 extends layout
 
 block content
-  h1= title
   div.container
       div.row
-        div#wallOfText.well.profile(style='padding: 10px; padding-left: 20px; height:400px; overflow:scroll;')
+        div.convasContainer
+            canvas#demoCanvas
+      div.row
+        div#wallOfText.well.profile(style='padding: 10px; padding-left: 20px; height:100px; overflow:scroll;')
       div.row
         div.col-md-6
             div.btn-group

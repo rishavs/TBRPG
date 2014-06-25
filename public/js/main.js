@@ -1,19 +1,4 @@
-var sock = new SockJS('/echo');
-
-sock.onopen = function() {
-	addText("You have JOINED the session");
-};
-
-sock.onmessage = function(msg) {
-    var serverMsg = JSON.parse(msg.data);
-
-	// Append the text to text area 
-	addText(serverMsg.content);
-};
-
-sock.onclose = function() {
-	addText("You have LEFT the session");
-};
+var sock;
 
 function sendRock () {
     var clientMsg = {};
@@ -39,8 +24,29 @@ function sendScissor () {
 	sock.send(JSON.stringify(clientMsg));
 }
 
+function newConnection () {
+	sock = new SockJS('/echo');
+    
+    sock.onopen = function() {
+        addText("You have JOINED the session");
+        setupStage();
+    };
+
+    sock.onmessage = function(msg) {
+        var serverMsg = JSON.parse(msg.data);
+
+        // Append the text to text area 
+        addText(serverMsg.content);
+    };
+
+    sock.onclose = function() {
+        addText("You have LEFT the session");
+    };
+
+}
+
 function closeConnection () {
-	sock.end();
+	sock.close();
 }
 
 function addText(text) {
