@@ -26,11 +26,11 @@ function sendScissor () {
 
 function newConnection () {
     // incase connection already open, close it. this ensures that spamming the button doesnt creates more connections
-    if(typeof sock === 'object' && sock.readyState === 1){
+    if(typeof sock === 'object' && (sock.readyState === 0||sock.readyState === 1)){
         closeConnection ();
     };
 	sock = new SockJS('/echo');
-    console.log("post", sock.readyState);  
+
     sock.onopen = function() {
         addText("You have JOINED the session");
     };
